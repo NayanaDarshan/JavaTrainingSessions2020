@@ -13,11 +13,11 @@ public class PatternPgms {
 	 
 	 int i;
 	 
-	 for ( i=1; i<=row; i++) {
+	 for ( i=0; i<=row; i++) {
 		 
-		 for (int j=1; j<=i; j++) {
+		 for (int j=0; j<=i; j++) {
 		 
-	    	 System.out.println(j+ " ");
+	    	 System.out.print(j+ " ");
 	     }
 		 System.out.println();
 	 }

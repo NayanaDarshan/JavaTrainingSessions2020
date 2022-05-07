@@ -1,12 +1,19 @@
 package JavaSession;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
 public class ArrayListTest {
 
 	public static void main(String[] args) {
+		
+		
+		
+		ArrayList<Integer> num123 = new ArrayList<Integer>(Arrays.asList(2000, 3000, 400));
+		
+		System.out.println("The numbers are ===>" +num123);
 		// 1. Write a Java program to create a new array list, add some colors (string)
 		// and print out the collection
 		System.out.println("****************************************************************");
@@ -23,6 +30,8 @@ public class ArrayListTest {
 		for (String Allcolors : colors) {
 		//	colors.trimToSize();
 			System.out.println(Allcolors);
+			
+			
 		}
 		
 		
@@ -39,7 +48,6 @@ public class ArrayListTest {
 		// given array list.
 
 		ArrayList<Integer> ar = new ArrayList<Integer>();
-
 		ar.add(10);
 		ar.add(20);
 		ar.add(30);
@@ -47,6 +55,8 @@ public class ArrayListTest {
 		ar.add(50);
 		ar.add(60);
 		ar.add(06, 100);
+		
+		
 		
 		ar.forEach(ar10 -> System.out.println(ar10));
 		
@@ -68,6 +78,7 @@ public class ArrayListTest {
 		ar3.add(400);
 		ar3.add(500);
        
+		
 		System.out.println("Before update value  ====> "+ar3);
         //updated the 1st Index value
 		ar3.set(1, 700);
@@ -91,6 +102,7 @@ public class ArrayListTest {
 
 		System.out.println("**********After removal*******************");
 		System.out.println(a10);
+		
 		// 6. Write a Java program to search an element in a array list.
 
 		ArrayList<String> as = new ArrayList<String>();
@@ -150,6 +162,8 @@ public class ArrayListTest {
 			System.out.println(bswap);
 
 		}
+		
+		
 
 		System.out.println("------After swap------");
 		Collections.swap(names, 4, 2);
@@ -191,6 +205,7 @@ public class ArrayListTest {
 		ar15.add("DD");
 		ar15.add("EE");
 		ar15.ensureCapacity(3);
+	
 	
 	
 		System.out.println(ar15.size());

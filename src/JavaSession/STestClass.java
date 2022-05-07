@@ -61,13 +61,14 @@ public class STestClass {
 		str5 = "Today we have solar eclipse and very cold climate";
 
 	System.out.println(str5.substring(str5.indexOf("eclipse")));
-
+	
 
 	System.out.println("7.**********************************************************************");
 		
 //7.Write a program to get the 3rd  “ e “ of the string .
     //For example: “Welcome to Naveen Automation Lab ! “.
-		
+	
+
 	String str12= "Welcome to Naveen Automation Lab !";
 	System.out.println("The first occurenece of e is: "+ str12.indexOf('e'));// 1st occurence
 	

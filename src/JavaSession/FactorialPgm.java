@@ -14,6 +14,20 @@ public class FactorialPgm {
 	public static void main(String[] args) {
 		FactorialPgm objfact = new FactorialPgm();
 		objfact.factorial(5);
+		
+		//String str = "100A";
+		
+		//int number=Integer.parseInt(str);
+		
+		//System.out.println(number);
+		
+		int a=10;
+		
+		System.out.println(a+200);
+		
+		String str=String.valueOf(a);
+		
+		System.out.println(str+200);
 
 	}
 
@@ -22,6 +36,7 @@ public class FactorialPgm {
 		if (num == 0) {
 			System.out.println("The factorial of given number " + num + " and result is===>" + num);
 		} else {
+			
 			for (int i = 1; i <= num; i++) {
 				result = result * i;
 

@@ -22,6 +22,15 @@ public class TestBank {
                 uk.minBalance();
                 uk.maxBalance();
                 //withdraw not available due to reference type check
+                
+                
+
+     
+      IndiaCountry.referencePerson();
+      
+   IndiaCountry icobj=   new AxisBank();
+   
+   icobj.depositCriteria();
 	}
 
 }
